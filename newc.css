@@ -109,4 +109,8 @@ header {
     width: 40%;
     margin-right: 60%;
 
-
+.parent h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}

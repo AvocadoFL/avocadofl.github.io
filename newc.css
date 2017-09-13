@@ -40,7 +40,8 @@ body {
     color: #414042;
 }
 .affix.navbar img{
-    filter: invert(100%);
+    filter: opacity(100%);
+    filter: grayscale(50%);
 }
 
 
@@ -68,7 +69,7 @@ body {
     background-color: #D1D3D4;
 }
 .navcolor1 img{
-  filter: opacity(60%);
+  filter: opacity(10%);
 }
 .mdmd{
     float: right;

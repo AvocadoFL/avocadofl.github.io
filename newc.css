@@ -41,7 +41,6 @@ body {
 }
 .affix.navbar img{
     filter: opacity(100%);
-    filter: grayscale(50%);
 }
 
 

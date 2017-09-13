@@ -1,2 +1,2 @@
 # avocadofl.github.io
-Avocado Fantasy League
+Avocado Fantasy Leagues

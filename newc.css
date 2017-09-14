@@ -129,3 +129,13 @@ header {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+.leftcol{
+    width: 80%;
+
+}
+
+.rightcol{
+    width: 20%;
+    background-color: #17357e;
+}

@@ -50,6 +50,7 @@ body {
 
 /* my stuff*/
 #parent {
+    padding-top:45px;
     line-height: 250px;
     background-color: #15a086;
 }

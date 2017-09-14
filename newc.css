@@ -1,5 +1,5 @@
 header {
-    height: 500px;
+    height: 300px;
 }
 body {
     background: #efefef;
@@ -50,6 +50,7 @@ body {
 
 /* my stuff*/
 #parent {
+    height:300;
     padding-top:45px;
     line-height: 250px;
     background-color: #15a086;
@@ -94,7 +95,6 @@ body {
 
 header {
     position: relative;
-    height: 500px;
   min-height: 100%;
 }
 

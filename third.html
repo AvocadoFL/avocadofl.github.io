@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Avocado Fantasy Leagues">
+    <meta name="author" content="Avocado Fantasy Leagues 101">
+    <link rel="icon" href="images/favicon.ico">
+
+      <title>Avocado Fantasy Leagues</title>
+  
+  <link href="css/bootstrap.css" rel="stylesheet">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="newc.css">
+    
+    </head>
+
+<body>
+    <header>
+        <div class="ban"> <center>Sign up for the Avocado Fantasy Leagues Beta 2.0 for early access to select leagues! </center></div>
+        
+    <div id="parent">
+        <center><img src="/images/avoLogo-02.png" height="300"></center>
+        <div id="parenttext"><center><h2>Fluky Fantasy Sports Leagues</h2></center></div>
+        
+        </div>
+</header>
+<nav class="navbar navcolor1 " data-toggle="affix">
+    <div class="row"><div class="logohold">
+        <a class="navbar-brandX" href="#4"><img src="/images/avoFav-03.png" width="50px"></a></div>
+        <div class="regmen hidden-sm-down">My Account</div>  <div class="regmen hidden-sm-down">Home</div>
+        <div class="regmen hidden-sm-down">Live Leagues</div><div class="regmen hidden-sm-down">Upcoming Leagues</div>
+        <div class="regmen hidden-sm-down">Daily Stats</div><div class="regmen hidden-sm-down">Sign Up</div>
+    <div class="mdmd">
+    <button class="navbar-toggler hidden-md-up col-xs-2" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        ☰
+    </button>
+    </div>
+    </div>
+    <div class="collapse navbar-toggleable-xs" id="collapsingNavbar">
+
+        <ul class="nav navbar-nav pull-right">
+           
+            <li class="nav-item">
+                <a class="nav-link" href="#1">MY ACCOUNT</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#2">HOME</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#3">LIVE LEAGUES</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#3">UPCOMING LEAGUES</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#3">DAILY STATS</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#3">SIGN UP</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container" id="main">
+    <div class="leftcol">
+    <br>&nbsp;<br>
+    <center><h1>Live Leagues</h1></center>
+    
+    <br><br>&nbsp;
+    
+    
+    &nbsp;<br>
+    
+    <div class="row">
+        <div class="col-xs-6 col-sm-4">
+            <div class="card card-outline-primary">
+               <div class="card-block"><center>
+                   <img src="/images/avoLogo-02.png" height="150">
+               <h3 class="card-title">MLB ERROR LEAGUE</h3>
+                <p class="card-text">Points scored for ERA and errors</p>
+                    <a href="#" class="btn btn-secondary">Register</a></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <div class="card card-outline-primary">
+               <div class="card-block"><center>
+                   <img src="/images/avoLogo-02.png" height="150">
+               <h3 class="card-title">NFL 3 POINTER LEAGUE</h3>
+                <p class="card-text">Field goals only</p>
+                   <a href="#" class="btn btn-secondary">Register</a></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4">
+            <div class="card card-outline-primary">
+               <div class="card-block"><center>
+                   <img src="/images/avoLogo-02.png" height="150">
+               <h3 class="card-title">MLB PLAYOFF ELIMINATION LEAGUE</h3>
+                <p class="card-text">If your team gets eliminated, you win</p>
+                    <a href="#" class="btn btn-secondary">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    </div>
+        <div class="rightcol">
+        <div class="col-xs-12">
+            <div class="card card-outline-primary">
+               <div class="card-block"><center>
+                   <img src="/images/avoLogo-02.png" height="150">
+               <h3 class="card-title">MLB PLAYOFF ELIMINATION LEAGUE</h3>
+                <p class="card-text">If your team gets eliminated, you win</p>
+                    <a href="#" class="btn btn-secondary">Register</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        </div>
+</div>
+ 
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script js>
+    $(document).ready(function() {
+  var toggleAffix = function(affixElement, scrollElement, wrapper) {
+  
+    var height = affixElement.outerHeight(),
+        top = wrapper.offset().top;
+    
+    if (scrollElement.scrollTop() >= top){
+        wrapper.height(height);
+        affixElement.addClass("affix");
+    }
+    else {
+        affixElement.removeClass("affix");
+        wrapper.height('auto');
+    }
+      
+  };
+  
+  $('[data-toggle="affix"]').each(function() {
+    var ele = $(this),
+        wrapper = $('<div></div>');
+    
+    ele.before(wrapper);
+    $(window).on('scroll resize', function() {
+        toggleAffix(ele, $(this), wrapper);
+    });
+    
+    // init
+    toggleAffix(ele, $(window), wrapper);
+  });
+  
+});
+    </script>
+</body>
+</html>

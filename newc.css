@@ -50,11 +50,12 @@ body {
 
 /* my stuff*/
 #parent {
-    line-height: 500px;
+    line-height: 250px;
     background-color: #15a086;
 }
 #parent img {
     vertical-align: middle;
+    bottom: 0;
 }
 .logohold{
     width: 115px;

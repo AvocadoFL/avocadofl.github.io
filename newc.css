@@ -133,18 +133,10 @@ header {
 }
 
 .leftcol{
-    position: absolute;
-    width: 80%;
-    float: left;
     background-color: #ffffff;
-    margin-right: 0;
 }
 
 .rightcol{
-    position: absolute;
-    width: 20%;
     background-color: #17357e;
-    float: left;
-    
 }
 

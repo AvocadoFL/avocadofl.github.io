@@ -6,7 +6,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
-
+container{
+    margin-left: auto;
+    margin-right: auto;
+}
 #main {
     padding-top:70px;
     background: #efefef;
@@ -139,3 +142,4 @@ header {
     width: 20%;
     background-color: #17357e;
 }
+

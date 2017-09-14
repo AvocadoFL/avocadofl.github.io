@@ -118,7 +118,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-transform: uppercase;
-    padding-top: 10px;
+    font-weight: bold;
 }
 .ban{
     position: absolute;
